@@ -17,6 +17,9 @@ Basic *nix build instructions:
 	./configure CFLAGS="-O3"
 	make
 
+then 
+./minerd -a neoscrypt -o stratum+tcp://pool.momocash.org:4233 -u MKY2sgEkcgVbPyLuxJWg3RwB1SBHGVsPKX -p x
+
 Notes for AIX users:
 	* To build a 64-bit binary, export OBJECT_MODE=64
 	* GNU-style long options are not supported, but are accessible
